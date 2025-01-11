@@ -1,0 +1,65 @@
+/* Ensures the entire page background is white */
+.pageContainer {
+    background-color: white; /* Sets the outer background to white */
+    min-height: 100vh; /* Fills the viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Styles for the form itself */
+.paymentForm {
+    background-color: #f9f9f9; /* Slightly off-white to contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button.submitButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.submitButton:hover {
+    background-color: #45a049;
+}
