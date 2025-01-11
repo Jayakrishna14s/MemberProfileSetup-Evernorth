@@ -1,0 +1,38 @@
+.header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(1, 47,107);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top:0;
+    z-index: 100;
+    position: sticky;
+    height: 60px;
+}
+
+.logo {
+    width: 200px; 
+}
+
+.nav {
+    display: flex;
+}
+
+.navLinks {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    padding-top: 25px;
+}
+
+.navLinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navLinks a:hover {
+    color: var(--bp-color-primary-light-pressed);
+}
