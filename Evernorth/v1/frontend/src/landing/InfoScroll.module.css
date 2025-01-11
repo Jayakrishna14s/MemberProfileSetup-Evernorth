@@ -1,0 +1,31 @@
+.infoScroll {
+    background: rgba(255, 255, 255, 0.9); /* Slightly more opaque */
+    padding: 1.5rem;
+    margin-top: 2rem; /* Space between hero content and info scroll */
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Hide overflow for clean appearance */
+}
+
+.scrollContainer {
+    display: flex; /* Use flexbox for horizontal layout */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical overflow */
+    padding: 0.5rem 0; /* Padding for the container */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+.statementBox {
+    min-width: 300px; /* Width of each box */
+    height: 80px; /* Fixed height for each box */
+    margin: 0 1rem; /* Margin for spacing between boxes */
+    border-radius: 10px; /* Rounded corners */
+    background-color: rgba(0, 77, 178, 0.8); /* Background color */
+    color: white; /* Text color */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+    flex-shrink: 0; /* Prevent shrinking */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}

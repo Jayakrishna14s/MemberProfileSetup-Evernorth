@@ -1,0 +1,9 @@
+/* ExtraFooter.module.css */
+.list-unstyled {
+    color: rgb(0, 77, 178); /* Desired shade of blue */
+    font-weight: bold; /* Makes the text bold */
+}
+
+.list-item {
+    color: inherit; /* Ensure the list item inherits the color */
+}

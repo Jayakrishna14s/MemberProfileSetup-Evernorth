@@ -1,0 +1,178 @@
+/* Global styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container for the whole user page */
+  .userPageContainer {
+    background-color: #fff;
+    width: 100vw;
+    box-shadow: 0 4px 8px rgb(253, 252, 252);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  
+  .PageContainer{
+    background-color: white;
+  }
+  /* Header section */
+  .userHeader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 40vw;
+    align-items: center;
+  }
+  
+  .userHeader h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .userHeader p {
+    color: #777;
+    font-size: 1rem;
+  }
+  
+  /* User details section */
+  .userDetails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .userAvatar {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 15px;
+  }
+  
+  .userInfo h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .userInfo p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  /* Button styling */
+  .profileBtn {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 25vw;
+    margin-right: 50px;
+  }
+  
+  .profileBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Footer section */
+  .userFooter {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .userFooter p {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  .mapSection {
+    width: 100%; /* Make sure the map takes up the full width of the container */
+    height: 100vh; /* You can adjust the height as needed */
+    margin-top: 20px; /* Space above the map to separate it from the previous content */
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Ensure the map is centered horizontally */
+  }
+  
+  /* Optional: Make sure the map itself is styled to take the full container space */
+  #map {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+  }
+
+  .searchSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 90vw;
+    margin-left: 5vw;
+  }
+  
+  .searchInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .searchButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the map section */
+  .mapSection {
+    width: 90%; /* Ensures the map takes up the full width of the container */
+    height: 100vh; /* Adjust as per the required height of the map */
+    margin-top: 20px; /* Adds space above the map to separate it from the rest of the content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+  }
+
+  .maps {
+    height: 100vh;
+    width: 90vw;
+    margin-left: 10vw;
+    margin-bottom: 40px;
+  }
+  
+  /* Style for the map itself */
+  #map {
+    width: 90%; /* Ensures the map fills its container */
+    height: 100vh; /* Ensures the map fills its container */
+    border-radius: 8px; /* Optional: rounded corners for the map */
+    margin-left: 10vw;
+  }

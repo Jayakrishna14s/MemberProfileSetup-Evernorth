@@ -1,0 +1,69 @@
+@import  './App.module.css';
+.whyChoose {
+    padding: 2rem;
+    text-align: center;
+    background-color: white;
+}
+.whyChoose h2{
+    color: black;
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+.boxContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.box {
+    width: 20%;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    border: 2px solid #002451b6;
+    height: 340px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.box p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #002451;
+    margin-bottom:20px;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.cardInfo{
+    color:#002451;
+    letter-spacing: 0.6px;
+    
+}
+.cardTitle{
+    border: 1px solid #00245170;
+    width: 200px;
+    margin: auto;
+    border-radius:20px;
+    padding: 5px;
+    transition: 0.3s;
+}
+.cardTitle:hover{
+    background-color: #002451cc;
+    color: white;
+    cursor: pointer;
+}
+.box:hover{
+    box-shadow: 3px 3px 8px rgba(5, 56, 159, 0.475);
+    border: 2px solid white;
+}
