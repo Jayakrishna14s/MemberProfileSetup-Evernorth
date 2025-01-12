@@ -1,0 +1,171 @@
+/* Header styles */
+.header {
+    background-color: #007bff;
+    padding: 20px 0;
+    color: white;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li {
+    font-size: 16px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main page styles */
+.dbcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #f7f9fc;
+    min-height: 100vh;
+    margin-top: 70px;
+}
+
+.dbheader {
+    font-size: 28px;
+    color: #343a40;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.tabsContainer {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.tabsColumn {
+    width: 25%;
+    padding-right: 15px;
+    border-right: 2px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tab {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s;
+    min-height: 50px;
+    font-size: 14px;
+}
+
+.tab:hover {
+    transform: translateY(-3px);
+    background-color: #f0f0f0;
+}
+
+.selectedTab {
+    background-color: #e9ecef;
+    transform: translateY(-3px);
+}
+
+.iconContainer {
+    font-size: 1.2rem;
+    color: #495057;
+    margin-bottom: 5px;
+}
+
+.status {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.statusCompleted {
+    color: #28a745;
+}
+
+.statusUncompleted {
+    color: #dc3545;
+}
+
+.dbbutton {
+    padding: 6px;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.dbbutton:hover {
+    background-color: #0056b3;
+}
+
+.dbbutton:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.formContainer {
+    width: 65%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .tabsColumn {
+        width: 100%;
+        border-right: none;
+        margin-bottom: 20px;
+    }
+
+    .formContainer {
+        width: 100%;
+    }
+
+    .dbcontainer {
+        padding: 20px;
+    }
+
+    .headerContent {
+        flex-direction: column;
+    }
+}

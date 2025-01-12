@@ -1,0 +1,40 @@
+.faqSection {
+    background: rgba(255, 255, 255, 0.9); /* Slightly opaque background */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0; /* Space between sections */
+}
+
+.faqSection h2{
+    color: black;
+    letter-spacing: 1px;
+    margin: 30px 0;
+}
+
+.faqItem {
+    margin-bottom: 1rem; /* Space between FAQs */
+    cursor: pointer; /* Show pointer on hover */
+    border: 2px solid hsla(213, 89%, 14%, 0.192);
+    border-radius: 0.7rem;
+}
+
+.faqQuestion {
+    background-color: white; /* Dark blue background for questions */
+    color: black; /* White text for questions */
+    padding: 1rem;
+    border-radius: 10px; /* Rounded corners */
+    transition: background-color 0.3s; /* Transition effect for hover */
+}
+
+.faqQuestion:hover {
+    background-color: rgba(154, 186, 229, 0.347); /* Lighter blue on hover */
+}
+
+.faqAnswer {
+    background-color:whitesmoke;
+    color: black; /* Black text for answers */
+    padding: 1rem;
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 0.5rem; /* Space between question and answer */
+}

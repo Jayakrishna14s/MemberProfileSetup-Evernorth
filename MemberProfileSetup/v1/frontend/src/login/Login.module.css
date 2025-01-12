@@ -1,0 +1,100 @@
+
+
+.appContainer {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('./assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 20px;
+  }
+  
+  .scrollableContent {
+    height: 100%;
+    overflow-y: auto;
+    padding: 20px; 
+  }
+
+  .container{
+    display: grid;
+    place-items: center;
+    margin-bottom: 50px;
+  }
+
+  .appContainer h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .LoginCard{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(142, 137, 137);
+    text-align: left;
+    width: 400px;
+    padding: 50px;
+    align-items: center;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  .AppWindow{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+  }
+
+
+  .qrimg{
+    height: 100px;
+    width: 100px;
+    float: right;
+    display: inline;
+  }
+
+  .textBelow{
+    color: rgb(94, 98, 102);
+    font-size: smaller;
+    margin-left: 50px;
+    padding-top:10px ;
+  }
+  
+  .appContainer input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 8px;
+    display: block;
+    margin:auto;
+    margin-top: 4px;
+    color: rgb(124, 126, 129);
+    box-shadow: none;
+  }
+
+  .appContainer a{
+    color: rgb(69, 127, 191);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin-right: 8px;
+  }
+
+  .appContainer button{
+    background-color: rgb(0, 46, 106);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width:250px;
+    padding: 10px;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+  }
+  
+  
